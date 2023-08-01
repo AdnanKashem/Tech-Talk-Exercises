@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contact Details -->
+    <h1>Contact Details</h1>
+    <!-- Image -->
+    <img src= "https://img.freepik.com/premium-photo/contact-us-icon-phone-email-mail-wood-cube-customer-service-support-beach-background_33874-358.jpg?w=1480" alt="Contact Image" >
+    <p>
+        You can contact us through the following methods:
+        <br>
+        Phone: +49 (###) ###-####
+        <br>
+        Email: info@teck-talk.com
+    </p>
+    <!-- Contact Form -->
+    <h2>Contact Form</h2>
+    <form action="process_form.php" method="post">
+        <!-- Text Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
